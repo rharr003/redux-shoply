@@ -1,0 +1,86 @@
+.add-item {
+  width: 35%;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.05);
+  background: #fff;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #333;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.add-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.1);
+}
+
+.add-item:active {
+  transform: scale(1);
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+.add-item .add-item__icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.add-item .add-item__text {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #333;
+}
+
+.remove-item {
+  margin: 10px;
+  width: 35%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.05);
+  background: #fff;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #333;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.remove-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.1);
+}
+
+.remove-item:active {
+  transform: scale(1);
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+.remove-item .remove-item__icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.remove-item .remove-item__text {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #333;
+}
+
+.item {
+  width: 35%;
+  margin: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.05);
+  background: #fff;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #333;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
